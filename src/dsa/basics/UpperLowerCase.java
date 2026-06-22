@@ -8,11 +8,11 @@ public class UpperLowerCase
 		char ch = sc.next().charAt(0);
 		if(ch >='A' && ch<='Z')
 		{
-			System.out.println("Character is a uppercase");
+			System.out.println("Character is a uppercase.");
 		}
 		else
 		{
-			System.out.println("Character is lowercase");
+			System.out.println("Character is lowercase.");
 		}
 	}
 }
