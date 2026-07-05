@@ -12,7 +12,7 @@ class GCDOfNum {
 
     public static int isGCD2(int a, int b) {
         if (b == 0) {
-            return a;
+            return Math.sqrt(a);
         }
         return isGCD2(b, a % b);
     }
