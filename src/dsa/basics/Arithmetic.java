@@ -28,7 +28,7 @@ public class Arithmetic {
                 System.out.println("a number cannot be divisible by zero");
             }
         } else {
-            System.out.println("Invalid operator..");
+            System.out.println("Invalid operator...");
         }
         System.out.println("Result: "+result);
     }
