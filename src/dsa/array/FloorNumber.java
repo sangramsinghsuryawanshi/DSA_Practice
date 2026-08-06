@@ -1,6 +1,7 @@
 package dsa.array;
 
 public class FloorNumber {
+
     public static void main(String[] args) {
         int a[] = {1,3,5,7,8,9,10,12,13,14,90,101};
         int start = 0, end = a.length;
