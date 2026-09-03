@@ -14,7 +14,7 @@ public class Student {
         System.out.println(Arrays.toString(x1)+" "+xyz.toString());
         MyArrayList<Xyz> mylist = new MyArrayList<Xyz>();
         System.out.println(mylist.toString());
-        this.toString();
+        //this.toString();
     }
 
 }
