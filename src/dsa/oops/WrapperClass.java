@@ -1,16 +1,18 @@
 package dsa.oops;
 
 public class WrapperClass {
+    public static int number;
     public static void main(String[] args) {
         Integer a = 1;
         Integer b = 2;
         System.out.println(a+" "+b);
         swap(a,b);
     }
-    static void swap(Integer a, Integer b){
+    public static void swap(Integer a, Integer b){
         Integer temp = a;
         a = b;
         b = temp;
+        System.out.println(a+" "+b);
     }
 
 }
