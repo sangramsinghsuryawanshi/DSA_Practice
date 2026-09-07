@@ -7,7 +7,7 @@ public class WrapperClass {
         System.out.println(a+" "+b);
         swap(a,b);
     }
-    static void swap(Integer a, Integer b){
+    public static void swap(Integer a, Integer b){
         Integer temp = a;
         a = b;
         b = temp;
