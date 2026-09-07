@@ -1,6 +1,7 @@
 package dsa.oops;
 
 public class WrapperClass {
+    public static int number;
     public static void main(String[] args) {
         Integer a = 1;
         Integer b = 2;
