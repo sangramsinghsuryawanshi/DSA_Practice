@@ -11,6 +11,7 @@ public class WrapperClass {
         Integer temp = a;
         a = b;
         b = temp;
+        System.out.println(a+" "+b);
     }
 
 }
