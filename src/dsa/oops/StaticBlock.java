@@ -1,5 +1,7 @@
 package dsa.oops;
 
+import dsa.designpattern.SingletonPattern;
+
 public class StaticBlock {
     static int number;
     static int number2;
@@ -13,6 +15,8 @@ public class StaticBlock {
         StaticBlock staticBlock = new StaticBlock();
         StaticBlock staticBlock2 = new StaticBlock();
         StaticBlock staticBlock3 = new StaticBlock();
+        SingletonPattern singletonPattern = SingletonPattern.getSingletonInstance();
+        singletonPattern.sayHello();
 
     }
 }
