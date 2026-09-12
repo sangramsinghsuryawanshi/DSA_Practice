@@ -17,6 +17,7 @@ public class StaticBlock {
         StaticBlock staticBlock3 = new StaticBlock();
         SingletonPattern singletonPattern = SingletonPattern.getSingletonInstance();
         singletonPattern.sayHello();
+        singletonPattern.sayHello();
 
     }
 }
