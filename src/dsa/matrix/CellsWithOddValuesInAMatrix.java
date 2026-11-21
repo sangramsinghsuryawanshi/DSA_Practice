@@ -6,7 +6,7 @@ public class CellsWithOddValuesInAMatrix {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two values: ");
         int m = 2;
-        int n = 3;
+        int n = 4;
         System.out.println("Enter indices: ");
         int [][] ind = {{0,1},{1,1}};
         System.out.println(Arrays.deepToString(oddCell(m,n,ind)));
