@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MoveZero {
     public static void main(String[] args) {
-        int a[] ={0,4,0,7,0,6,4,0};
+        int a[] ={0,4,0,7,0,6,4,0,0};
         int b[] = {0};
         System.out.println(Arrays.toString(moverZero(a)));
         System.out.println(Arrays.toString(moverZero(b)));
